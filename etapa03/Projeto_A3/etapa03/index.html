@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Aluno - Júlio César </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="profile-container">
+        <header class="profile-header">
+            <div class="photo-gallery">
+                <img src="img/foto_perfil_1.jpg" alt="Foto de Perfil Principal" id="main-photo" class="main-photo">
+                <div class="thumbnail-container">
+                    <img src="img/foto_perfil_1.jpg" alt="Miniatura 1" class="thumbnail">
+                    <img src="img/foto_perfil_2.jpg" alt="Miniatura 2" class="thumbnail">
+                    <img src="img/foto_perfil_3.jpg" alt="Miniatura 3" class="thumbnail">
+                </div>
+            </div>
+            <div class="header-info">
+                <h1>Júlio César De Lima Moreira</h1>
+                <p>Ciência da Computação, terceiro período</p>
+                <p>RA: 1232021411 </p>
+            </div>
+        </header>
+
+        <main class="profile-main">
+            <div class="card">
+                <h2>Informações de Contato</h2>
+                <p><strong>Endereço:</strong>Rua Conselheiro Saraiva, Belo Horizonte, Minas Gerais </p>
+                <p><strong>Email:</strong> <input type="email" id="email" value="juliocesardelimamoreira@gmail.com"></p>
+                <p><strong>CPF:</strong> <input type="text" id="cpf" placeholder="154.255.776-30"></p>
+            </div>
+
+            <div class="card" id="personal-card">
+                <h2>Sobre Mim</h2>
+                <div id="personal-description-container">
+                    <p>  Sou uma pessoa comunicativa e gosto muito de esportes, especialmente tênis. 
+                Nas horas vagas, gosto de correr, ir em parques, tirar fotos e escrever. 
+                Vivo ouvindo músicas durante grande parte do meu tempo e me sensibilizo muito com a área da música e da composição.</p>
+                    <p>  Tenho interesse por projetos que envolvam o campo da comunicação e da escrita, me identifico com o campo da psicologia também.
+                Atualmente estou no 3º período de Ciência da Computação e outra área que me atrai é a da sonoplastia. 
+                Adiquiri conhecimentos básicos em desing gráfico e no adobe audition devido a um curso técnico de 2 anos que completei em 2018 na escola Saga.</p>
+                </div>
+                <hr>
+                <h4>Adicionar Novos Detalhes</h4>
+                <textarea id="new-personal-info" placeholder="Ex: Ocupação atual: Atuamente faço estágio na área de suporte técnico..."></textarea>
+                <button id="add-info-btn">Adicionar</button>
+            </div>
+
+          <div class="card">
+    <h2>UCS Cursadas</h2>
+    
+    <ul id="uc-list">
+        
+        <li>Programação de soluções computacionais<div class="buttons"><button class="up">▲</button><button class="down">▼</button></div></li>
+        <li>Analise de dados e big data<div class="buttons"><button class="up">▲</button><button class="down">▼</button></div></li>
+        <li>Modelagem De Software<div class="buttons"><button class="up">▲</button><button class="down">▼</button></div></li>
+        <li>IA<div class="buttons"><button class="up">▲</button><button class="down">▼</button></div></li>
+
+    </ul>
+    
+    <button id="add-uc-btn">Adicionar UC</button>
+</div>
+        </main>
+
+        <footer class="profile-footer">
+            <a href="https://www.linkedin.com/in/julio-cesar-b97118203/" target="_blank">LinkedIn</a> |
+            <a href="https://www.instagram.com/click_um_momento/" target="_blank">Instagram</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
